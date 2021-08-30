@@ -1,0 +1,12 @@
+:root {
+  --color: #539bf5;
+  --bg-color-primary: #22272e;
+  --bg-color-secondary: #2d333b;
+  --txt-color: #adbac7;
+  --img-filter: grayscale(50%);
+}
+
+/* Re-colorize and darken photographic images # */
+img:not([src*=".svg"]) {
+  filter: var(--img-filter);
+}

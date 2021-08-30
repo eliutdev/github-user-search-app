@@ -1,0 +1,28 @@
+{
+  "name": "github-user-search-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reliut-g/github-user-search-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reliut-g/github-user-search-app/issues"
+  },
+  "homepage": "https://github.com/reliut-g/github-user-search-app#readme",
+  "devDependencies": {
+    "vite": "^2.5.1"
+  },
+  "dependencies": {
+    "dark-mode-toggle": "^0.8.0"
+  }
+}

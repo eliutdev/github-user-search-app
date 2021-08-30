@@ -1,0 +1,89 @@
+:root {
+  --border-radius: 6px;
+  --container-width: 1024px;
+}
+
+body {
+  background: var(--bg-color-primary);
+  color: var(--txt-color);
+}
+
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-brand {
+  font-size: 1.5rem;
+  color: var(--txt-color);
+}
+
+form[name="search-user"] {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.color-mode-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border: 1.5px solid var(--bg-color-secondary);
+  border-radius: 50%;
+  font-size: 1.5rem;
+  background: transparent;
+  cursor: pointer;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  border-radius: var(--border-radius);
+  background: var(--bg-color-secondary);
+}
+
+.input-icon {
+  color: var(--txt-color);
+}
+
+.form-control {
+  width: 80%;
+  padding: 0.5rem;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--bg-color-secondary);
+  background: var(--bg-color-secondary);
+  color: var(--txt-color);
+}
+
+.btn.btn-secondary {
+  background: var(--color);
+  color: #fff;
+  border: 1px solid var(--bg-color-primary);
+  border-radius: var(--border-radius);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.form-control:focus {
+  outline: none;
+}
+
+.profile-card {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  background: var(--bg-color-secondary);
+  color: var(--txt-color);
+}
